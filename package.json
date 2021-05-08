@@ -1,0 +1,26 @@
+{
+  "name": "11ty-from-scratch",
+  "version": "1.0.0",
+  "description": "Completed lessons from Andy Bell's Learn Eleventy from Scratch course.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarahzachz/11ty-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarahzachz/11ty-from-scratch/issues"
+  },
+  "homepage": "https://github.com/zarahzachz/11ty-from-scratch#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-cache-assets": "^2.2.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "moment": "^2.29.1"
+  }
+}
